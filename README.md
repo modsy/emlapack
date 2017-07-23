@@ -79,6 +79,18 @@ $ gulp build
 
 This should take a while. Coffee, perhaps?
 
+## Customizing Builds
+
+If the bundle is too large and you know the specific set of functions you would like to use, you can create a file called `custom/export-functions.js` with the specific functions you want to create a bundle specific to your requirements. In the [custom](./custom) folder you can see files ending in `.example.js` to help you get started.
+
+## Docker
+
+For convenience, this repo also includes a Dockerfile so you can build everything in Docker.
+
+```shell
+./scripts/docker_build.sh
+```
+
 For more detail, see:
 
 * http://www.netlib.org/blas/
