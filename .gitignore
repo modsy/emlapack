@@ -7,3 +7,5 @@ emlapack.wasm
 custom/*
 !custom/*.example.js
 *.log
+.npmrc
+
